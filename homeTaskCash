@@ -1,0 +1,12 @@
+По роли "Kassir" меню cash:
+1. Главная страница(она же профиль):
+     a) Логин
+     b) ФИО
+     b) Изменить пароль
+2. Валюты:
+     a) Валюты (show all currencies)
+     b) Курс НБ(show all ratenb)
+
+3. Операции:
+     a) Платежи (show all sprOperations)
+     b) Проведенные операции (show all made userOperations) : сумма+вид платежа, отсортированные по дате
