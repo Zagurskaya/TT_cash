@@ -1,0 +1,24 @@
+По роли "Kassir" меню cash:
+1. Главная страница(она же профиль):
+     a) Логин
+     b) ФИО
+     b) Изменить пароль
+2. Валюты:
+     a) Валюты (show all currencies)
+     b) Курс НБ(show all ratenb)
+
+3. Операции:
+     a) Платежи (show all sprOperations)
+     b) Проведенные операции (show all made userOperations) : сумма+вид платежа, отсортированные по дате
+
+
+
+
+По роли "SecureRestAPI" :
+с ролью SECURE REST API
+Url            Method Action
+/api/users     POST   Добавить нового пользователя
+/api/rate      GET    Показать список всех курсов
+/api/rate/{id} GET    Показать курс с id
+/api/rate      POST   Создать новый курс
+/api/rate/{id} DELETE Удалить курс с id
